@@ -1,6 +1,8 @@
 # Kaagle link : https://www.kaggle.com/code/jerusonj/sml-task-2-base
 # Collab Link : https://colab.research.google.com/drive/1gfeueSIGWTNlhsKlrTsRZkE-VBULVJAc?usp=sharing
 
+Training curves, confusion matrices, and the complete classification report can be found in the Jupyter Notebook
+
 # 📌 Project Overview
 This repository contains a Convolutional Neural Network (CNN) built entirely from scratch using PyTorch to classify the CIFAR-10 dataset.
 The primary objective of this project is to demonstrate a fundamental understanding of Residual Learning. By manually implementing residual blocks, skip connections, and handling dimension mismatches, this architecture completely avoids pre-built models (like torchvision.models.resnet) to deeply explore how skip connections solve the vanishing gradient problem and allow for deeper, more accurate networks.
