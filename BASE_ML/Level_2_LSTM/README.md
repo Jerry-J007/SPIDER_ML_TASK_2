@@ -1,8 +1,8 @@
 # KAAGLE LINK : https://www.kaggle.com/code/jerusonj/sml-task-2-base-2
 
-#
+# Collab Link : https://colab.research.google.com/drive/1MOZtpaG83hL1w_fwbciBaP_73Qu-oPDy?usp=sharing
 
-## Base Task 2: Custom LSTM for Weather Forecasting
+## Base Task 2 : LSTM for Weather Forecasting
 This module involves building and evaluating a custom Long Short-Term Memory (LSTM) model tailored for time-series climate prediction. 
 
 **Key Objectives:**
