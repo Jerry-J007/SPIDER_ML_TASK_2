@@ -22,13 +22,13 @@ The comprehensive final report. It details the architectural design (adhering to
 sml_task_2_base_3 (2).ipynb
 The main training notebook. This contains:
 
-  .Data preprocessing (downsampling 10-minute intervals to hourly averages).
+    .Data preprocessing (downsampling 10-minute intervals to hourly averages).
 
-  .Implementation of the manual Sinusoidal Positional Encoding.
+    .Implementation of the manual Sinusoidal Positional Encoding.
 
-  .The Encoder-only Transformer model definition.
+    .The Encoder-only Transformer model definition.
 
-  .The complete training loop utilizing gradient clipping and a ReduceLROnPlateau learning rate scheduler.
+    .The complete training loop utilizing gradient clipping and a ReduceLROnPlateau learning rate scheduler.
 
 lstm_vs_transformer (1).ipynb
 The comparative evaluation notebook. This script loads the trained weights for both the LSTM (Level 2) and the Transformer (Level 3) to run inference on the same unseen test split, generating the final side-by-side Matplotlib forecast plots.
