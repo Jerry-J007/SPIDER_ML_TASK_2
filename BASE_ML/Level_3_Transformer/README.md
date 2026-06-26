@@ -39,3 +39,16 @@ The saved PyTorch state dictionary containing the fully trained weights for the 
 **Key Results**
 
 The Transformer successfully outperformed the Custom LSTM across all major regression metrics, demonstrating superior handling of sudden atmospheric shifts and long-range dependencies without the "lag effect" commonly seen in recurrent models.
+<img width="1102" height="287" alt="Screenshot 2026-06-26 221826" src="https://github.com/user-attachments/assets/57f59b9e-fb30-4ac8-8fa4-884a656bc0dd" />
+
+Technologies Used
+
+.Python
+
+.PyTorch (nn.Module, TransformerEncoderLayer, MSELoss, HuberLoss)
+
+.Pandas & NumPy (Data processing and downsampling)
+
+.Scikit-Learn (StandardScaler)
+
+.Matplotlib (Visualization)
