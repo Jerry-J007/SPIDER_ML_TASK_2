@@ -17,6 +17,7 @@ In this level, an Encoder-only Transformer architecture was implemented using Py
 Below is a breakdown of the files included in this repository:
 
 Analysis.pdf
+
 The comprehensive final report. It details the architectural design (adhering to the 64 hidden dimensions, 4 attention heads, and 2 encoder layers constraints), the theoretical differences between Attention and Recurrence, and information about the comparative metrics (MSE, MAE, Huber Loss).
 
 sml_task_2_base_3 (2).ipynb
