@@ -36,6 +36,6 @@ The comparative evaluation notebook. This script loads the trained weights for b
 Transformer_weights (2).pth
 The saved PyTorch state dictionary containing the fully trained weights for the Transformer model, allowing for direct inference without retraining.
 
-Key Results
+**Key Results**
 
 The Transformer successfully outperformed the Custom LSTM across all major regression metrics, demonstrating superior handling of sudden atmospheric shifts and long-range dependencies without the "lag effect" commonly seen in recurrent models.
