@@ -31,9 +31,11 @@ The main training notebook. This contains:
     .The complete training loop utilizing gradient clipping and a ReduceLROnPlateau learning rate scheduler.
 
 lstm_vs_transformer (1).ipynb
+
 The comparative evaluation notebook. This script loads the trained weights for both the LSTM (Level 2) and the Transformer (Level 3) to run inference on the same unseen test split, generating the final side-by-side Matplotlib forecast plots.
 
 Transformer_weights (2).pth
+
 The saved PyTorch state dictionary containing the fully trained weights for the Transformer model, allowing for direct inference without retraining.
 
 **Key Results**
