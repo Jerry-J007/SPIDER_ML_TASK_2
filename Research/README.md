@@ -3,6 +3,7 @@
 **Reflections & Key Takeaways**
 
 Completing this researc task provided deep insights into the evolution of style transfer and deep generative frameworks over the past decade  
+
 **Seperation of Visual Features**: Analyzing the foundational work of Gatys et al. demonstrated that deeply embedded convolutional feature representations can mathematically separate an image's high level semantic layout from its localized color texture styles. 
 
 **Statistical Modulations**: Transitioning from the slow, iterative pixel optimization of the Gram Matrix to AdaIN's channel wise mean and variance alignment revealed that normalization layers in deep networks not only stabilize training.They act as immediate , style modulators. 
